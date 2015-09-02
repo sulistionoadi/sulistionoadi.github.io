@@ -4,7 +4,7 @@
   <title><![CDATA[Learn Together]]></title>
   <link href="http://www.sulistionoadi.com/atom.xml" rel="self"/>
   <link href="http://www.sulistionoadi.com/"/>
-  <updated>2015-09-02T17:48:06+07:00</updated>
+  <updated>2015-09-02T17:51:02+07:00</updated>
   <id>http://www.sulistionoadi.com/</id>
   <author>
     <name><![CDATA[Adi Sulistiono]]></name>
@@ -18,7 +18,8 @@
     <link href="http://www.sulistionoadi.com/blog/2015/09/01/installasi-yeoman/"/>
     <updated>2015-09-01T10:29:33+07:00</updated>
     <id>http://www.sulistionoadi.com/blog/2015/09/01/installasi-yeoman</id>
-    <content type="html"><![CDATA[<p>Apa sih yeoman itu ? mengenai penjelasan yeoman itu apa silahkan cek  <a href="http://yeoman.io/">disini</a> hehehe&hellip;
+    <content type="html"><![CDATA[<p>Apa sih yeoman itu ? mengenai penjelasan yeoman itu apa silahkan cek
+<a href="http://yeoman.io/">disini</a> hehehe&hellip;
 Intinya sih yeoman itu sebuah generator untuk membuat sebuah project, dalam hal ini saya gunakan untuk membuat project menggunakan framework <a href="https://angularjs.org/">AngularJS</a> dan <a href="http://getbootstrap.com/">Twitter Bootstrap</a>.</p>
 
 <p>Sebelum bisa menggunakan yeoman ini, pertama-tama rekan kerja kita (laptop atau pc) sudah terinstall <a href="https://nodejs.org/download/">NodeJS</a>. Versi berapa ? ambil aja versi terakhir di website resmi nya NodeJS. Karena jika menggunakan versi yang terlalu lama, ntar malah sering kena error ketika generate project atau waktu compile project.</p>
