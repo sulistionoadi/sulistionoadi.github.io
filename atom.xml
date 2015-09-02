@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Learn Together]]></title>
+  <link href="http://www.sulistionoadi.com/atom.xml" rel="self"/>
+  <link href="http://www.sulistionoadi.com/"/>
+  <updated>2015-09-02T17:31:36+07:00</updated>
+  <id>http://www.sulistionoadi.com/</id>
+  <author>
+    <name><![CDATA[Adi Sulistiono]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Installasi Yeoman]]></title>
+    <link href="http://www.sulistionoadi.com/blog/2015/09/01/installasi-yeoman/"/>
+    <updated>2015-09-01T10:29:33+07:00</updated>
+    <id>http://www.sulistionoadi.com/blog/2015/09/01/installasi-yeoman</id>
+    <content type="html"><![CDATA[<p>Apa sih yeoman itu ? mengenai penjelasan yeoman itu apa silahkan cek  <a href="http://yeoman.io/">disini</a> hehehe&hellip;
+Intinya sih yeoman itu sebuah generator untuk membuat sebuah project, dalam hal ini saya gunakan untuk membuat project menggunakan framework <a href="https://angularjs.org/">AngularJS</a> dan <a href="http://getbootstrap.com/">Twitter Bootstrap</a>.</p>
+
+<p>Sebelum bisa menggunakan yeoman ini, pertama-tama rekan kerja kita (laptop atau pc) sudah terinstall <a href="https://nodejs.org/download/">NodeJS</a>. Versi berapa ? ambil aja versi terakhir di website resmi nya NodeJS. Karena jika menggunakan versi yang terlalu lama, ntar malah sering kena error ketika generate project atau waktu compile project.</p>
+
+<p>Gimana kalo diinstall lewat package manager atau <code>apt-get</code> (Khusus Linux User)? Sebenernya nggak jadi masalah, asalkan versinya ikut update juga. Untuk yang pake cara download dari website resminya <a href="https://nodejs.org/download/">NodeJS</a> silahkan ikuti langkah-langkah berikut :</p>
+
+<ol>
+<li>download nodejs versi terakhir disini
+<a href="https://nodejs.org/download/">https://nodejs.org/download/</a></li>
+<li>copy file <code>node-xxx.tar.gz</code> ke directory <code>/opt</code></li>
+<li>buka terminal kemudian masuk menjadi user <code>root</code>
+<code>$sudo su</code></li>
+<li>extract file <code>node-xxx.tar.gz</code> di directory <code>/opt</code> tersebut dengan cara dibawah ini
+<code>cd /usr/local &amp;&amp; tar --strip-components 1 -xzf /opt/node-v0.12.7-linux-x86.tar.gz</code></li>
+<li>setelah sukses meng-ekstrak file <code>node-xxx.tar.gz</code>, selanjutnya keluar dari user <code>root</code></li>
+<li><p>kemudian cek versi node dan npm-nya<br/>
+<code>$ node -v</code><br/>
+<code>v0.12.7</code></p>
+
+<p><code>$ npm -v</code> <br/>
+<code>2.11.3</code></p></li>
+<li><p>kemudian lakukan perintah berikut ini, agar versi npm nya terupdate<br/>
+<code>`sudo npm -g update npm</code></p>
+
+<p>Cek lagi versi npm-nya <br/>
+<code>$ node -v</code><br/>
+<code>2.14.1</code></p></li>
+<li>kemudian install paket bower, yo, generator-angular, grunt-cli
+<code>sudo npm -g install bower yo grunt-cli generator-angular</code></li>
+<li>setelah sukses generate aplikasi dengan perintah <code>yo angular</code> dan kira-kira akan muncul tampilan seperti berikut : <br/>
+<img src="images/blog/yeoman_generate.png" title="Generator Angular" alt="tampilan ketika generate aplikasi angular menggunakan yeoman" /></li>
+</ol>
+
+
+<p>Karena aplikasi yang digenerate adalah anggular dan bootstrap, maka <code>sass with compass</code> di isi <code>no</code>. dan pilihan <code>Bootstrap</code> di isi <code>yes</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thanks Octopress]]></title>
+    <link href="http://www.sulistionoadi.com/blog/2015/09/01/thanks-octopress/"/>
+    <updated>2015-09-01T01:04:21+07:00</updated>
+    <id>http://www.sulistionoadi.com/blog/2015/09/01/thanks-octopress</id>
+    <content type="html"><![CDATA[<p>Sudah lama sekali nih saya nggak nge-posting sesuatu. Lama nggak posting karna gak sempet atau males nulis :smile:.
+Bisa jadi kedua alasan itu membuat saya nggak punya website/blog sampai sekarang :cry:.
+Tapi tenang aja, mulai sekarang insya allah saya akan rajin nge-posting dan sharing ilmu kepada semua pembaca.</p>
+
+<p>Sebelumnya saya ucapkan terima kasih kepada <a href="http://octopress.org/docs/">Octopress</a> yang sudah menyediakan fiturnya secara gratis, untuk membuat website. Dan juga terima kasih kepada Bapak <a href="http://software.endy.muhardin.com/aplikasi/terima-kasih-wordpress/">Endy Muhardin</a> yang sudah membuatkan tutorial penggunaan octopress dalam bahasa indonesia.</p>
+
+<p>Mudah-mudahan setelah ini saya mulai rajin untuk sharing ilmu dan juga teknik-teknik coding yang sering sudah saya gunakan.</p>
+]]></content>
+  </entry>
+  
+</feed>
