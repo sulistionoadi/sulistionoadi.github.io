@@ -2,12 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://www.sulistionoadi.com
+title: Learn Together
+subtitle: learn make life so much useful
+author: Adi Sulistiono
 simple_search: https://www.google.com/search
-description:
+description: Software developer dengan bahasa program sering digunakan adalah Java.
+emoji_dir: images/emoji
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -98,4 +99,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
